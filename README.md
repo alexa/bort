@@ -43,7 +43,7 @@ To save yourself some headache we recommend you install Horovod from source, _af
     pip install horovod==0.16.2 --no-cache-dir
 ```
 
-2. You also need to download the model from [here](https://s3.console.aws.amazon.com/s3/buckets/alexa-saif-bort/). If you have the AWS CLI, all you need to do is run:
+2. You also need to download the model from [here](https://alexa-saif-bort.s3.amazonaws.com/bort.params). If you have the AWS CLI, all you need to do is run:
 ```
 aws s3 cp s3://alexa-saif-bort/bort.params model/
 ```
