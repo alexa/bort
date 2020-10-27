@@ -24,7 +24,7 @@ And here are the architectural parameters:
 
 |Model|Parameters (M) |Layers |Attention heads|Hidden size| Intermediate size| Embedding size (M) | Encoder proportion (%)|
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|Bort       |56 |  4| 8  | 768  | 1024 | 39  | 30.3 |
+|Bort       |56 |  4| 8  | 1024  | 768 | 39  | 30.3 |
 |BERT-Large|340| 24| 16 | 1024 | 4096 | 31.8| 90.6 |
 
 
