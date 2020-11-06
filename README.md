@@ -129,8 +129,8 @@ If you use Bort or the other algorithms in your work, we'd love to hear from it!
     archivePrefix={arXiv},
     primaryClass={cs.LG},
     journal={CoRR},
-    volume={abs/2010.085122},
-    url={http://arxiv.org/abs/2010.085122}
+    volume={abs/2010.08512},
+    url={http://arxiv.org/abs/2010.08512}
 }
 ```
 ```
