@@ -2,7 +2,7 @@
 ##### Companion code for the paper "Optimal Subarchitecture Extraction for BERT."
 
 Bort is an optimal subset of architectural parameters for the BERT architecture, extracted by applying a fully polynomial-time approximation scheme (FPTAS) for neural architecture search. Bort has an effective (that is, not counting the embedding layer) size of 5.5\% the original BERT-large architecture, and 16\% of the net size. It is also able to be pretrained in 288 GPU hours, which is 1.2\% of the time required to pretrain the highest-performing BERT parametric architectural variant, RoBERTa-large.
-It is also 7.9x faster than BERT-base (20x faster than BERT/RoBERTa-large) on a CPU, and performs better than other compressed variants of the architecture, and some of the non-compressed variants; it obtains an average performance improvement of between 0.3\% and 31\%, absolute with respect to BERT-large on multiple public natural language understanding (NLU) benchmarks.
+It is also 7.9x faster than BERT-base (20x faster than BERT/RoBERTa-large) on a CPU, and performs better than other compressed variants of the architecture, and some of the non-compressed variants; it obtains an average performance improvement of between 0.3\% and 31\%, relative, with respect to BERT-large on multiple public natural language understanding (NLU) benchmarks.
 
 Here are the corresponding GLUE scores on the test set:
 
